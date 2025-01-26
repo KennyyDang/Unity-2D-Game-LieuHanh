@@ -1,12 +1,10 @@
 fileFormatVersion: 2
-guid: 15200019bd4f849499de0218125bc354
+guid: 4eba97f5831eb064a927b91b8b80c618
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2493077118379893330
-    second: "DALL\xB7E 2025-03-09 11.08.03 - A beautiful 2D game background inspired
-      by Northern Vietnam, designed for a parallax scrolling effect. The scene includes_
-      __- __Far Background___ Di_0"
+      213: -4178046375966092550
+    second: 4_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,14 +113,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "DALL\xB7E 2025-03-09 11.08.03 - A beautiful 2D game background inspired
-        by Northern Vietnam, designed for a parallax scrolling effect. The scene
-        includes_ __- __Far Background___ Di_0"
+      name: 4_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1792
+        width: 1536
         height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -132,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25220b62e60399220800000000000000
-      internalID: 2493077118379893330
+      spriteID: af2de6115f89406c0800000000000000
+      internalID: -4178046375966092550
       vertices: []
       indices: 
       edges: []
