@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -75,22 +74,5 @@ namespace Controllers
             transform.Rotate(0,180,0);
             targetLayerName = "Enemy";
         }
-
-        public class SoundManager : MonoBehaviour
-        {
-            private Dictionary<string, float> soundRegistry = new Dictionary<string, float>();
-
-            public void RegisterSound(string soundName)
-            {
-                if (!soundRegistry.ContainsKey(soundName))
-                    soundRegistry[soundName] = UnityEngine.Random.Range(0.5f, 2.0f);
-            }
-
-            public float GetPitch(string soundName)
-            {
-                return soundRegistry.ContainsKey(soundName) ? soundRegistry[soundName] : 1.0f;
-            }
-        }
-
     }
 }

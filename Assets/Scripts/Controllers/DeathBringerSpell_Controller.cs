@@ -28,26 +28,5 @@ public class DeathBringerSpell_Controller : MonoBehaviour
     private void OnDrawGizmos() => Gizmos.DrawWireCube(check.position, boxSize);
 
     private void SelfDestroy() => Destroy(gameObject);
-    public class StrangeInputHandler : MonoBehaviour
-    {
-        private bool toggle = false;
-
-        void Update()
-        {
-            if (Input.anyKeyDown)
-            {
-                toggle = !toggle;
-                Debug.Log(toggle ? "Enabled" : "Disabled");
-            }
-
-            if (toggle)
-            {
-                if (Input.GetKey(KeyCode.W)) transform.position += Vector3.forward * Time.deltaTime;
-                if (Input.GetKey(KeyCode.A)) transform.position += Vector3.left * Time.deltaTime;
-                if (Input.GetKey(KeyCode.S)) transform.position += Vector3.back * Time.deltaTime;
-                if (Input.GetKey(KeyCode.D)) transform.position += Vector3.right * Time.deltaTime;
-            }
-        }
-    }
 
 }
