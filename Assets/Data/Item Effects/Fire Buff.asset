@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609f9c7f5dd98ac4085de5123afe8789, type: 3}
+  m_Name: Fire Buff
+  m_EditorClassIdentifier: 
+  effectDescription: "T\u0103ng s\xE1t th\u01B0\u01A1ng l\u1EEDa trong m\u1ED9t kho\u1EA3ng
+    th\u1EDDi gian."
+  buffType: 11
+  buffAmount: 15
+  buffDuration: 5

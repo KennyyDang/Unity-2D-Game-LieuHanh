@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Player
+  - Enemy
+  - Muse Animate Posing
+  - Muse Animate Baking
+  - Muse Animate Handles
+  - Muse Animate Thumbnail
+  - Muse Animate Environment
+  - Sword
+  - Item
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2195396633
+    locked: 0
+  - name: Ground
+    uniqueID: 2203445301
+    locked: 0
+  - name: Checkpoint
+    uniqueID: 615980827
+    locked: 0
+  - name: Item
+    uniqueID: 807419311
+    locked: 0
+  - name: Enemy
+    uniqueID: 3168819167
+    locked: 0
+  - name: Player
+    uniqueID: 4078383675
+    locked: 0
+  - name: FX
+    uniqueID: 1348227787
+    locked: 0
+  m_RenderingLayers:
+  - Default
