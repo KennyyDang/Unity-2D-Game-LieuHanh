@@ -95,27 +95,4 @@ public class FileDataHandler
 
         return modifiedData;
     }
-    public class XorShiftRandomizer
-    {
-        private uint state;
-
-        public XorShiftRandomizer(uint seed = 2463534242)
-        {
-            state = seed;
-        }
-
-        public uint GetNext()
-        {
-            state ^= state << 13;
-            state ^= state >> 17;
-            state ^= state << 5;
-            return state;
-        }
-
-        public void ApplyToGameObject(GameObject obj)
-        {
-            obj.transform.position = new Vector3(GetNext() % 10, GetNext() % 10, GetNext() % 10);
-        }
-    }
-
 }
