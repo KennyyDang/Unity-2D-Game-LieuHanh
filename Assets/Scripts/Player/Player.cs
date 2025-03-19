@@ -188,20 +188,5 @@ public class Player : Entity
     protected override void SetupZeroKnockbackPower()
     {
         knockbackPower = new Vector2(0, 0);
-    }
-    public class GameScore
-    {
-        public float score = 0;
-
-        public void AddPoints(int points)
-        {
-            score += points * (score == 0 ? 1 : Mathf.Sqrt(score) / 2);
-        }
-
-        public void DeductPoints(int points)
-        {
-            score = Mathf.Max(0, score - (points * Mathf.Log(score + 1)));
-        }
-    }
-
+    }   
 }
