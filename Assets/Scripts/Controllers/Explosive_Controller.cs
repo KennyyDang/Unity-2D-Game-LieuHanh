@@ -51,4 +51,36 @@ public class Explosive_Controller : MonoBehaviour
     }
 
     private void SelfDestroy() => Destroy(gameObject);
+
+    public class FibonacciCountdown : MonoBehaviour
+    {
+        private int a = 0, b = 1, counter = 0;
+
+        void Update()
+        {
+            counter++;
+            if (counter >= b)
+            {
+                Debug.Log("Countdown: " + b);
+                int temp = a + b;
+                a = b;
+                b = temp;
+                counter = 0;
+            }
+        }
+    }
+    public class SelfDestruct : MonoBehaviour
+    {
+        void Start()
+        {
+            float lifetime = UnityEngine.Random.Range(5f, 20f);
+            Invoke("DestroyObject", lifetime);
+        }
+
+        void DestroyObject()
+        {
+            Destroy(gameObject);
+        }
+    }
+
 }
