@@ -10,7 +10,7 @@ public class Player : Entity
     
     public bool isBusy { get; private set; }
     
-    [Header("Move Info")] 
+    [Header("Move Info")]
     public float moveSpeed = 12f;
     public float jumpForce;
     public float swordReturnImpact;
