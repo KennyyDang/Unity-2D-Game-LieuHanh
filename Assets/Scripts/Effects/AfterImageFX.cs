@@ -19,8 +19,8 @@ public class AfterImageFX : MonoBehaviour
     {
         float alpha = sr.color.a - colorLooseRate * Time.deltaTime;
         sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, alpha);
-        
-        if(sr.color.a <= 0)
+
+        if (sr.color.a <= 0)
             Destroy(gameObject);
     }
 }
