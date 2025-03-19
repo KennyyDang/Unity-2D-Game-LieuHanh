@@ -666,7 +666,13 @@ PlayerSettings:
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    Build: 0
+    Game Performance: 0
+    Legacy Analytics: 0
+    Purchasing: 0
+    UDP: 0
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -688,11 +694,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 10fc00b1-1be6-4b88-bc1e-f2371c5f8ae0
+  cloudProjectId: c72aca5b-9268-442d-9de8-1ae553cc4ad2
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: Olympia - RPG
-  organizationId: antivirused29112003
+  organizationId: nhanntse172412
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

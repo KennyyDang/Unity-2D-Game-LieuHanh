@@ -17,16 +17,16 @@ public class UI_HealthBar : MonoBehaviour
         UpdateHealthUI();
     }
 
-    private void UpdateHealthUI()
-    {
-        slider.maxValue = myStats.GetMaxHealthValue();
-        slider.value = myStats.currentHealth;
-    }
-
     private void OnEnable()
     {
         entity.onFlipped += FlipUI;
         myStats.onHealthChanged += UpdateHealthUI;
+    }
+
+    private void UpdateHealthUI()
+    {
+        slider.maxValue = myStats.GetMaxHealthValue();
+        slider.value = myStats.currentHealth;
     }
     
     private void OnDisable()
